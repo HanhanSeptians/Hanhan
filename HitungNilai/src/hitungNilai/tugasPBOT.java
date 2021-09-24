@@ -20,10 +20,7 @@ public class tugasPBOT {
         System.out.println("Masukkan Nilai UAS : ");
         UAS = keyboard.nextFloat();
         
-        Tugas = Tugas * 20/100;
-        UTS = UTS *35/100;
-        UAS = UAS *45/100;
-        Nilai_Akhir = Tugas + UTS + UAS;
+        Nilai_Akhir = Tugas * 20/100 + UTS *35/100 + UAS * 45/100;
         	if(Nilai_Akhir>85) {
         		nilaiHuruf="A";
         	}else if(Nilai_Akhir>=75 && Nilai_Akhir<=84) {
