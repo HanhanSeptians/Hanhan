@@ -9,10 +9,10 @@ public class Soal1 {
     	userInput= keyboard.nextLine();
     	String[] temp = userInput.split("\\ |!|,|\\?|\\.|\\_|\\@|'");
     	System.out.println(temp.length);
-    	userInput=userInput.replaceAll("\\'","\n");
-    	userInput=userInput.replaceAll(" ","\n");
-    	System.out.println(userInput);
+    	int i;
+    	for(i=0;i<=temp.length-1;i++) {
+    		System.out.println(temp[i]);
+    	}
     	
     }
 } 
-
