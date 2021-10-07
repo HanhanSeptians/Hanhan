@@ -7,10 +7,11 @@ public class Soal1 {
     	Scanner keyboard = new Scanner(System.in);
     	String userInput;
     	userInput= keyboard.nextLine();
+    	userInput=userInput.trim();
     	String[] temp = userInput.split("\\ |!|,|\\?|\\.|\\_|\\@|'");
     	System.out.println(temp.length);
     	int i;
-    	for(i=0;i<=temp.length-1;i++) {
+    	for(i=0;i<temp.length;i++) {
     		System.out.println(temp[i]);
     	}
     	
